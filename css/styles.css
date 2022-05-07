@@ -1,0 +1,18 @@
+.tabla{
+    width: 100%;
+}
+.tabla__top{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.tabla__top div{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+@media (max-width: 950px) {
+    .tabla__top{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
